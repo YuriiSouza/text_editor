@@ -1,0 +1,3 @@
+/home/xpg5st/Documents/git/text_editor/build/CMakeFiles/meu-editor.dir
+/home/xpg5st/Documents/git/text_editor/build/CMakeFiles/edit_cache.dir
+/home/xpg5st/Documents/git/text_editor/build/CMakeFiles/rebuild_cache.dir
