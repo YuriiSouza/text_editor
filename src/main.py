@@ -10,13 +10,15 @@ root.title("Code Editor")
 text_place_1 = tk.Text(root)
 text_place_1.pack(expand=True, fill="both")
 
+file_1 = File()
+
 # Criando a barra de menu
 menu_bar = tk.Menu(root)
 
 arquivo_menu = tk.Menu(menu_bar, tearoff=0)
-arquivo_menu.add_command(label="Abrir", command=lambda: File().search_file(text_place_1))
-arquivo_menu.add_command(label="Salvar", command=save_file)
-arquivo_menu.add_command(label="Salvar Como", command=save_as_file)
+arquivo_menu.add_command(label="Abrir", command=lambda: file_1.search_file(text_place_1))
+arquivo_menu.add_command(label="Salvar", command=lambda: file_1.save_file(text_place_1))
+arquivo_menu.add_command(label="Salvar Como", command=lambda: file_1.save_as_file(text_place_1))
 arquivo_menu.add_separator()
 arquivo_menu.add_command(label="Sair", command=root.quit)
 

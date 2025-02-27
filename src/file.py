@@ -5,14 +5,18 @@ from tkinter import filedialog
 
 class File:
     def __init__(self, path=""):
-        info = os.stat(path)
+        if path:
+            self.set_path(path)
+            info = os.stat(path)
+            
+            self.name, self.size = os.path.split(path)
+            self.path = path
+            self.last_modified = time.ctime(info.st_mtime)
+            self.last_accessed = time.ctime(info.st_atime)
+            self.created = time.ctime(info.st_ctime)
         
-        self.name, self.size = os.path.split(path)
-        self.path = path
-        self.last_modified = time.ctime(info.st_mtime)
-        self.last_accessed = time.ctime(info.st_atime)
-        self.created = time.ctime(info.st_ctime)
-    
+        else:
+            self.path = ""
     
     def get_path(self):
         return self.path
@@ -49,7 +53,7 @@ class File:
             self.save_as_file()  # Se não há caminho, pede para salvar como novo arquivo
 
 
-    def save_as_file(self):
+    def save_as_file(self, text_place):
         """Abre um diálogo para salvar o arquivo"""
         file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[
             ("Arquivos Python", "*.py"),
@@ -59,4 +63,4 @@ class File:
         
         if file_path:
             self.set_path(file_path)
-            self.save_file()
+            self.save_file(text_place)
