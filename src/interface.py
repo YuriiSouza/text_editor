@@ -62,19 +62,19 @@ class Interface:
           cancel_button = tk.Button(top, text="Não", command=top.destroy)
           cancel_button.pack(side="right", padx=10, pady=10)
           
-        else:
-          top = tk.Toplevel(self.root)
-          top.title("Sair")
-          
-          label = tk.Label(top, text=f"Deseja sair?")
-          label.pack(padx=20, pady=10)
-          
-          confirm_button = tk.Button(top, text="Sim", command=self.exit_application)
-          confirm_button.pack(side="left", padx=10, pady=10)
-          
-          cancel_button = tk.Button(top, text="Não", command=top.destroy)
-          cancel_button.pack(side="right", padx=10, pady=10)
-          
+        
+        top = tk.Toplevel(self.root)
+        top.title("Sair")
+        
+        label = tk.Label(top, text=f"Deseja sair?")
+        label.pack(padx=20, pady=10)
+        
+        confirm_button = tk.Button(top, text="Sim", command=self.exit_application)
+        confirm_button.pack(side="left", padx=10, pady=10)
+        
+        cancel_button = tk.Button(top, text="Não", command=top.destroy)
+        cancel_button.pack(side="right", padx=10, pady=10)
+        
           
     def save_and_close(self, top, file):
       """Salva o arquivo e fecha o pop-up"""
