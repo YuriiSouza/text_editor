@@ -1,7 +1,3 @@
-Aqui está a versão em inglês do seu texto:  
-
----
-
 # Text Editor - Python Tkinter  
 
 ## Overview  
