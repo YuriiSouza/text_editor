@@ -1,62 +1,65 @@
-# Editor de Texto - Python Tkinter
+Aqui está a versão em inglês do seu texto:  
 
-## Visão Geral
+---
 
-Este é um editor de texto desenvolvido em Python utilizando Tkinter. Ele foi projetado para atender tanto programadores quanto usuários comuns, oferecendo funcionalidades essenciais para edição de texto com uma interface intuitiva e leve.
+# Text Editor - Python Tkinter  
 
-## Recursos
+## Overview  
 
-- **Suporte a Múltiplos Arquivos**: Abra e edite vários arquivos simultaneamente.
-- **Destaque de Sintaxe**: Suporte para diversas linguagens de programação.
-- **Autossalvamento**: Salva automaticamente seu trabalho em intervalos definidos.
-- **Pesquisa e Substituição**: Localize e substitua trechos de texto com facilidade.
-- **Suporte a Temas**: Alterne entre diferentes esquemas de cores.
-- **Atalhos de Teclado**: Navegação rápida e eficiente.
-- **Exportação**: Salve seus arquivos em diferentes formatos.
+This is a text editor developed in Python using Tkinter. It is designed for both programmers and general users, offering essential text editing functionalities with an intuitive and lightweight interface.  
 
-## Requisitos
+## Features  
 
-Para rodar o editor de texto, você precisa ter instalado:
+- **Multiple File Support**: Open and edit multiple files simultaneously.  
+- **Syntax Highlighting**: Support for various programming languages.  
+- **Auto-Save**: Automatically saves your work at defined intervals.  
+- **Search and Replace**: Easily find and replace text.  
+- **Theme Support**: Switch between different color schemes.  
+- **Keyboard Shortcuts**: Fast and efficient navigation.  
+- **Export**: Save your files in different formats.  
 
-- Python 3.x
-- Tkinter (incluído por padrão no Python)
+## Requirements  
 
-## Instalação
+To run the text editor, you need:  
 
-Clone o repositório e execute o script principal:
+- Python 3.x  
+- Tkinter (included by default in Python)  
+
+## Installation  
+
+Clone the repository and run the main script:  
 
 ```bash
-# Clone o repositório
+# Clone the repository
 git clone https://github.com/YuriiSouza/text_editor.git
-cd editor-texto
+cd text_editor
 
-# Execute o editor de texto
+# Run the text editor
 python main.py
-```
+```  
 
-## Como Usar
+## How to Use  
 
-1. **Abrir Arquivos**: Use `Arquivo > Abrir` ou `Ctrl+O` para carregar um documento.
-2. **Editar Texto**: Digite e edite seu texto livremente.
-3. **Salvar Arquivo**: Clique em `Arquivo > Salvar` ou pressione `Ctrl+S`.
-4. **Alterar Tema**: Selecione um tema em `Configurações > Tema`.
-5. **Pesquisar Texto**: Utilize `Editar > Pesquisar` (`Ctrl+F`).
-6. **Executar Código** (se aplicável): Suporte a execução de scripts diretamente do editor.
+1. **Open Files**: Use `File > Open` or `Ctrl+O` to load a document.  
+2. **Edit Text**: Freely type and edit your text.  
+3. **Save File**: Click `File > Save` or press `Ctrl+S`.  
+4. **Change Theme**: Select a theme in `Settings > Theme`.  
+5. **Search Text**: Use `Edit > Search` (`Ctrl+F`).  
+6. **Run Code** (if applicable): Supports executing scripts directly from the editor.  
 
-## Contribuição
+## Contribution  
 
-Contribuições são bem-vindas! Para sugerir melhorias ou corrigir problemas:
+Contributions are welcome! To suggest improvements or fix issues:  
 
-1. Faça um fork do repositório.
-2. Crie um branch para sua alteração (`git checkout -b minha-melhoria`).
-3. Realize suas mudanças e faça commit (`git commit -m "Melhoria adicionada"`).
-4. Envie um pull request.
+1. Fork the repository.  
+2. Create a branch for your change (`git checkout -b my-improvement`).  
+3. Make your changes and commit them (`git commit -m "Added improvement"`).  
+4. Submit a pull request.  
 
-## Licença
+## License  
 
-Este projeto está licenciado sob a [MIT License](https://opensource.org/license/mit).
+This project is licensed under the [MIT License](https://opensource.org/license/mit).  
 
-## Contato
+## Contact  
 
-Se tiver dúvidas ou sugestões, entre em contato pelo email: [yuripeixoto1112@gmail.com](mailto\:yuripeixoto1112@gmail.com).
-
+If you have any questions or suggestions, contact me via email: [yuripeixoto1112@gmail.com](mailto:yuripeixoto1112@gmail.com).
